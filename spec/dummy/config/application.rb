@@ -41,6 +41,9 @@ module Dummy
     # Enable escaping HTML in JSON.
     config.active_support.escape_html_entities_in_json = true
 
+    # Set cache format version for Rails 7.2+ compatibility
+    config.active_support.cache_format_version = 7.0
+
   end
 end
 
